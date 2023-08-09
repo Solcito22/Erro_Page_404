@@ -1,0 +1,46 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    min-height: 100vh;
+    background-image: linear-gradient(125deg, #4c5ee0, #c474d6);
+}
+
+.container{
+    width: 100%;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    text-align: center;
+    color: #312f31;
+}
+.container h1{
+    font-size: 150px;
+    font-weight: 500;
+    margin-bottom: 20px;
+    letter-spacing: 20px;
+    background: url(aurora.jpg) center/cover no-repeat;
+    -webkit-text-fill-color: transparent;    
+    -webkit-background-clip: text;   
+}
+.container h1:hover{
+    -webkit-transform: rotateY(360deg);
+    transition: 3s ease-in-out;
+}
+
+.container a{
+    text-decoration: none;
+    color: #0a12f3;
+    background: #dad5da;
+    padding: 10px 20px;
+    border-radius: 20px;
+    font-size: 20px;
+    display: inline-block;
+    text-transform: uppercase;
+    transition: 0.5s;
+}
+.container a:hover{
+    background: #0a12f3;
+    color: #dad5da;
+}
+
